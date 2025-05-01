@@ -1,0 +1,20 @@
+{
+    "01d":"clearsky.png",
+    "01n":"clearsky.png",
+    "02d": "fewclounds.png",
+    "02n": "fewclounds.png",
+    "03d": "scatteredclouds.png",
+    "03n": "scatteredclouds.png",
+    "04d": "brokenclouds.png",
+    "04n": "brokenclouds.png",
+    "09d": "showerrain.png",
+    "09n": "showerrain.png",
+    "10d": "rain.png",
+    "10n": "rain.png",
+    "11d": "thunderstorm.png",
+    "11n": "thunderstorm.png",
+    "13d": "snow.png",
+    "13n": "snow.png",
+    "50d": "mist.png",
+    "50n": "mist.png"
+}

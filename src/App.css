@@ -1,38 +1,42 @@
-.App {
+#root {
+  /* margin: auto; */
+  /* padding: 2rem; */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Trebuchet MS", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p,
+button,
+label {
+  color: #ffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px;
+  width: 300px;
+  /* justify-content: space-around; */
+  /* max-width: 100px; */
+}
+
+.appContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.weatherInfo {
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* 
+.inputContainer {
+  display: "flex";
+  justify-content: "center"
+} */
